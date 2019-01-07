@@ -1,17 +1,29 @@
+html, body{
+    font-size: 16px;
+    color: #000000;
+    background-color: #e6e6e6
+
+}
 .avatar {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    
-
-}
-html, body{
-    font-size: 16px;
-    color: #000000;
-    background-color: #e6e6e6
 }
 .description {
     text-align: center;
-    padding-bottom: 10px;
-{
+    font-family: monospace;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.left-nav{
+    top: 5%;
+}
+
+.right-nav {
+    top: 0;
+    text-align: end
+}
+.bottom-half {
+    background:#e6e6e6ce;
+}
