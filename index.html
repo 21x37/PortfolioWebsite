@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio</title>
-        <link rel='stylesheet' type='text/css' href='assets/style.css'>
+        <title>TM | Portfolio</title>
+        <link rel='stylesheet' href='assets/style.css'>
     </head>
     <body>
-        <!-- Navigation -->
-        <nav>
-            <div class='left-nav'>
-            <a href='https://github.com/21x37' class='nav-item'>
-                <span class='icon'>
-                    <i class='github'></i>
-                </span>
-                    GitHub 
-            </a>
-            <!-- More Socials Possibly-->
-        
+        <div class='container'>
+            <nav>
+                <input type='checkbox' id='nav' class='hidden'>
+                <label for='nav' class='nav-btn'>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </label>
+                <div class='github'>
+                    <a href='https://github.com/21x37' target='_blank'>GitHub</a>
+                </div>
+                <div class='nav-wrapper'>
+                    <ul>
+                        <li><a href='#'>Home</a></li>
+                        <li><a href='#'>About Me</a></li>
+                        <li><a href='#'>Projects</a></li>
+                        <li><a href='#'>Social</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class='img-desc'>
+            <div class='palmtree'>
+                <img class='tree' src='palmtree1.png'>
             </div>
-            <div class='right-nav'>
-                <a class='nav-item' href='#about'>About</a>
-                <a class='nav-item' href='#projects'>Projects</a>
-            </div>
-        </nav>
-        <section id='about' class='section1'>
-            <div class='text-centered'>
-                <img class='avatar' src='assets/EmojiMe.jpg' width='100px' height='100px'>
-
-            </div>
-            <div class='container'></br>
-                <p class='description'>
-                    Hey I'm Tyler; a self-taught programmer from <br> California. I started my programming career <br> learning Python, where the basic syntax allowed <br> me to understand OOP, Data Structures, and some <br> common algorithms. I'm currently learning <br> JavaScript, but before starting JS I learned <br> HTML & CSS. In the future I plan to be a full- <br> stack developer, and constantly learn new <br> things!
+            <div class='desc'>
+                <p class='info'>
+                    Hey I'm Tyler; a self-taught programmer from California. I started my programming career learning Python, where the basic syntax allowed me to understand OOP, Data Structures, and some common algorithms. I'm currently learning JavaScript, but before starting JS I learned HTML & CSS. In the future I plan to be a full-stack developer, and constantly learn new things! 
                 </p>
-
             </div>
-            <div class='bottom-half'>
-            
-                
-            </div>
-
-       </section>
+        </div>
     </body>
 </html>
