@@ -23,18 +23,20 @@ body {
 
 nav {
     padding: 8px;
+    position: relative;
+    top: 10px;
 }
 
-.github {
+.tm {
     float: left;
     padding: 8px;
-    margin-left: 16px;
+    margin-left: 30px;
     margin-top: 8px;
 }
 
-.github a {
+.tm a {
     color: #000;
-    font-weight: 300;
+    font-weight: 450;
     font-size: 35px;
     letter-spacing: 0px;
     text-decoration: none;
@@ -42,7 +44,7 @@ nav {
 
 nav ul {
     float: right;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 nav ul li {
@@ -51,7 +53,7 @@ nav ul li {
 }
 
 nav ul li:not(:first-child) {
-    margin-left: 48px;
+    margin-left: 25px;
 }
 
 nav ul li:last-child {
@@ -63,9 +65,23 @@ nav ul li a {
     outline: none;
     color: #000;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 22px;
     letter-spacing: -.5px;
     font-weight: 100;
+}
+
+.underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: width .3s;
+}
+
+.underline:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 .hidden {
@@ -79,7 +95,7 @@ nav ul li a {
     text-align: left;
     line-height: 2.75rem;
     position: relative;
-    top: 100px;
+    top: 140px;
 }
 
 .info {
@@ -88,16 +104,7 @@ nav ul li a {
     letter-spacing: 0.05rem;
 }
 
-.palmtree {
-    display: none;
-    width: 0px;
-    height: 0px;
-    position: relative;
-    top: 450px;
-    left: 600px;
-}
+
+
 @media screen and (max-width: 1920px) {
-    .palmtree {
-        opacity: 0;
-    }
 }
