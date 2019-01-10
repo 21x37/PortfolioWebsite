@@ -53,7 +53,7 @@ nav ul li {
 }
 
 nav ul li:not(:first-child) {
-    margin-left: 25px;
+    margin-left: 28px;
 }
 
 nav ul li:last-child {
@@ -106,7 +106,7 @@ nav ul li a {
 
 @font-face {
     font-family: 'Raleway-Light';
-    src: url(fonts/Raleway-Light.ttf);
+    src: url(../fonts/Raleway-Light.ttf);
     font-style: normal;
 }
 
